@@ -1,0 +1,129 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  width: 99%;
+  height: 97%;
+  background-size: cover;
+  background-image: url("https://img.freepik.com/free-photo/top-close-up-view-vegetables-tomatoes-with-pedicels-garlic-bell-peppers-lemon-oil-onion_140725-72203.jpg");
+}
+.top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 80px;
+  align-items: center;
+  padding: 0px 40px;
+}
+.logo {
+  font-size: 30px;
+  color: orangered;
+}
+.nav {
+  position: relative;
+  left: -180px;
+}
+a {
+  padding: 5px 15px;
+  color: orangered;
+  text-decoration: none;
+  font-size: 20px;
+}
+a:hover {
+  color: blue;
+  font-size: 25px;
+  text-decoration: underline;
+  text-underline-position: under;
+}
+.search {
+  font-size: 25px;
+}
+.search {
+  padding: 5px 20px;
+}
+.heading {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 65px;
+  align-items: center;
+}
+.right {
+  width: 440px;
+  height: 415px;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShlZSQQLHhRIoluEtg0u8GZ7--xdEx0GX9NA&usqp=CAU");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 440px;
+  object-fit: scale-down;
+  justify-content: center;
+  align-items: center;
+  filter: contrast(140%);
+}
+.right::before {
+  width: 430px;
+  height: 430px;
+  border: 2px solid white;
+  content: " ";
+  position: absolute;
+  border-radius: 430px;
+  padding: 10px;
+}
+.left p:nth-child(1) {
+  color: rgb(207, 127, 127);
+  font-size: 30px;
+  letter-spacing: 1px;
+  font-style: italic;
+}
+.left h1 {
+  font-size: 90px;
+  color: rgb(244, 50, 40);
+}
+.left p:nth-child(3) {
+  color: orange;
+  font-size: 30px;
+  font-style: italic;
+}
+.left button {
+  width: 150px;
+  height: 30px;
+  font-size: 15px;
+  border-radius: 20px;
+  border: 2px solid rgb(3, 3, 3);
+  background-color: transparent;
+  color: black;
+  margin: 20px 0px;
+}
+.socialmedia {
+  position: absolute;
+  right: 0;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  width: 40px;
+  height: 200px;
+  font-size: 2rem;
+  background-color: aqua;
+}
+.socialmedia i:hover {
+  color: orangered;
+}
+#food1,
+#food2 {
+  background-size: cover;
+  width: 150px;
+  height: 150px;
+  border-radius: 100px;
+  margin: 0px 20px;
+}
+#food1 {
+  background-image: url("https://img.freepik.com/premium-photo/collection-fruits-vegetables-isolated_135427-230.jpg");
+}
+#food2 {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShlZSQQLHhRIoluEtg0u8GZ7--xdEx0GX9NA&usqp=CAU");
+}
+.menu {
+  display: flex;
+  margin: 0px 150px;
+}
